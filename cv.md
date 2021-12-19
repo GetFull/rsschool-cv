@@ -33,6 +33,6 @@ function sum(a, b) {
 
 ## Languages
 
-`English` \- A2
-`Russian` \- Native
-`Ukrainian` \- Native
+- `English` \- A2
+- `Russian` \- Native
+- `Ukrainian` \- Native
