@@ -617,7 +617,9 @@ code.hljs {
 }
 
 .footer a {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: var(--text-alt);
   text-decoration: none;
   transition: 0.5s;
@@ -628,6 +630,11 @@ code.hljs {
 
 .footer svg {
   fill: var(--bg);
+  transition: 0.5s;
+}
+
+.footer svg:hover {
+  fill: var(--primary);
 }
 
 .footer a:hover {
