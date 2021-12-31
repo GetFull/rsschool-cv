@@ -617,9 +617,13 @@ code.hljs {
 }
 
 .footer a {
+  display: block;
   color: var(--text-alt);
   text-decoration: none;
   transition: 0.5s;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
 }
 
 .footer svg {
