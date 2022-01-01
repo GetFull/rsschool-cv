@@ -14,8 +14,9 @@ themeButton.addEventListener("click", (evenet) => {
   document.body.classList.toggle("dark");
 });
 
-const menuButton = document.querySelector(".nav__togl");
+const menuButton = document.querySelector(".js-nav-togl");
 
 menuButton.addEventListener("click", (evenet) => {
-  document.querySelector(".nav__list").classList.toggle("hidden");
+  document.querySelector(".nav--header").classList.toggle("active");
+  document.querySelector(".burger").classList.toggle("active");
 });
