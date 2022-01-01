@@ -435,6 +435,10 @@ code.hljs {
   margin-bottom: 60px;
 }
 
+.dark .aboute-me__title {
+  color: var(--text-alt);
+}
+
 .about-me__description {
   text-align: center;
 
