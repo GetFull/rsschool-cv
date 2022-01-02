@@ -371,7 +371,6 @@ code.hljs {
   border-bottom-left-radius: 50% 20%;
   border-bottom-right-radius: 50% 20%;
   background: var(--about-gradient);
-  min-height: 70vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
