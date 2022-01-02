@@ -617,6 +617,72 @@ code.hljs {
 
 /*  ====================  */
 
+.experience {
+}
+
+.experience__inner {
+}
+
+.experience__message {
+  background-color: var(--primary);
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 10px solid var(--bg-alt);
+}
+
+.project__title {
+  padding-top: calc(var(--spacing) / 2);
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.project__card {
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--bg-alt);
+  color: #ffffff;
+  gap: 20px;
+  width: fit-content;
+  transition: 0.5s;
+  position: relative;
+  overflow: hidden;
+}
+
+.project__card:hover {
+}
+.project__link {
+}
+.project__img {
+}
+.project__skills-list {
+  position: absolute;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background-color: #673df091;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.project__skills-list li:first-child {
+  font-weight: bold;
+  border-bottom: 20px solid;
+}
+.project__card:hover .project__skills-list {
+  opacity: 1;
+}
+/*  ====================  */
+
 .education {
 }
 
