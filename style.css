@@ -84,7 +84,13 @@ body {
 .svg {
   fill: var(--bg-alt);
 }
+
+.svg--alt {
+  fill: var(--bg);
+}
+
 .section {
+  width: 100%;
 }
 
 .section:last-child {
@@ -136,6 +142,22 @@ h3.title {
   font-size: 1.5rem;
 }
 
+.button {
+  background-color: transparent;
+  display: flex;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background-color: var(--primary);
+}
+
+.button:active {
+  background-color: var(--bg-alt);
+}
 /* ======================  */
 
 pre code.hljs {
@@ -147,6 +169,7 @@ pre code.hljs {
 code.hljs {
   padding: 3px 5px;
 }
+
 .hljs {
   color: #abb2bf;
   background: #282c34;
@@ -332,6 +355,7 @@ code.hljs {
     border: 2px solid var(--text);
     background-color: transparent;
   }
+
   .nav__link:active {
     border-radius: 30px;
     color: var(--text-alt);
@@ -370,9 +394,11 @@ code.hljs {
   0% {
     background-position: 80% 70%, -50% 30%;
   }
+
   50% {
     background-position: 180% 70%, -150% 30%;
   }
+
   100% {
     background-position: 80% 70%, -50% 30%;
   }
@@ -414,9 +440,11 @@ code.hljs {
   0% {
     background-position: 0% 0%;
   }
+
   50% {
     background-position: 100% 50%;
   }
+
   100% {
     background-position: 0% 00%;
   }
@@ -511,6 +539,8 @@ code.hljs {
   opacity: 0;
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 10px;
   background-color: var(--bg-alt);
   color: var(--text-alt);
   padding: 20px;
@@ -619,6 +649,7 @@ code.hljs {
   padding: 20px;
   border-radius: 10px;
 }
+
 .education__description {
 }
 
